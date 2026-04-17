@@ -1,0 +1,26 @@
+2026-04-16 12:24:09 - INFO - Sistema de logging profesional inicializado.
+2026-04-16 12:24:09 - INFO - Conexión a DuckDB establecida y activa.
+2026-04-16 12:24:09 - INFO - Entorno de datos inicializado correctamente.
+2026-04-16 12:24:12 - INFO - Tabla fact_securities creada.
+2026-04-16 12:24:14 - INFO - Iniciando Carga Histórica para los activos: ['USDMXN.FIX', 'UDIMXN.SPOT', 'MXN.TPFB', 'MXN.TIIE-1D']
+2026-04-16 12:24:14 - INFO - Procesando USDMXN.FIX (SF43718)...
+2026-04-16 12:24:14 - INFO -    Éxito: 321 registros insertados.
+2026-04-16 12:24:14 - INFO - Procesando MXN.TIIE-1D (SF331451)...
+2026-04-16 12:24:15 - INFO -    Éxito: 321 registros insertados.
+2026-04-16 12:24:15 - INFO - Procesando UDIMXN.SPOT (SP68257)...
+2026-04-16 12:24:15 - INFO -    Éxito: 471 registros insertados.
+2026-04-16 12:24:15 - INFO - Procesando MXN.TPFB (SF43773)...
+2026-04-16 12:24:16 - INFO -    Éxito: 321 registros insertados.
+2026-04-16 12:24:19 - INFO -          date series_id security_name    value                 updated_at
+0  2025-01-02   SF43718    USDMXN.FIX  20.6917 2026-04-16 12:24:14.829653
+1  2025-01-03   SF43718    USDMXN.FIX  20.6708 2026-04-16 12:24:14.829653
+2  2025-01-06   SF43718    USDMXN.FIX  20.3195 2026-04-16 12:24:14.829653
+3  2025-01-07   SF43718    USDMXN.FIX  20.3440 2026-04-16 12:24:14.829653
+4  2025-01-08   SF43718    USDMXN.FIX  20.3823 2026-04-16 12:24:14.829653
+2026-04-16 12:24:48 - INFO - Iniciando Carga Diaria Incremental para: ['USDMXN.FIX', 'UDIMXN.SPOT', 'MXN.TPFB', 'MXN.TIIE-1D']
+2026-04-16 12:24:49 - INFO -  Éxito: Registro 2026-04-15 guardado en s3_datalake/incremental/raw_inc_SF43718_20260416.parquet e insertado en DB.
+2026-04-16 12:24:49 - INFO -  Éxito: Registro 2026-04-15 guardado en s3_datalake/incremental/raw_inc_SF331451_20260416.parquet e insertado en DB.
+2026-04-16 12:24:50 - INFO -  Éxito: Registro 2026-04-25 guardado en s3_datalake/incremental/raw_inc_SP68257_20260416.parquet e insertado en DB.
+2026-04-16 12:24:50 - INFO -  Éxito: Registro 2026-04-15 guardado en s3_datalake/incremental/raw_inc_SF43773_20260416.parquet e insertado en DB.
+2026-04-16 12:25:11 - INFO - Reporte generado exitosamente.
+2026-04-16 12:25:11 - INFO - Ubicación: s3_datalake/report/reporte_validacion_20260416122511.csv

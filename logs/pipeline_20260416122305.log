@@ -1,0 +1,13 @@
+2026-04-16 12:23:05 - INFO - Sistema de logging profesional inicializado.
+2026-04-16 12:23:06 - INFO - Conexión a DuckDB establecida y activa.
+2026-04-16 12:23:06 - INFO - Entorno de datos inicializado correctamente.
+2026-04-16 12:23:11 - INFO - Tabla fact_securities creada.
+2026-04-16 12:23:13 - INFO - Iniciando Carga Histórica para los activos: ['USDMXN.FIX', 'UDIMXN.SPOT', 'MXN.TPFB', 'MXN.TIIE-1D']
+2026-04-16 12:23:13 - INFO - Procesando USDMXN.FIX (SF43718)...
+2026-04-16 12:23:13 - INFO -    Error en SF43718: name 'banxico' is not defined
+2026-04-16 12:23:13 - INFO - Procesando MXN.TIIE-1D (SF331451)...
+2026-04-16 12:23:13 - INFO -    Error en SF331451: name 'banxico' is not defined
+2026-04-16 12:23:13 - INFO - Procesando UDIMXN.SPOT (SP68257)...
+2026-04-16 12:23:13 - INFO -    Error en SP68257: name 'banxico' is not defined
+2026-04-16 12:23:13 - INFO - Procesando MXN.TPFB (SF43773)...
+2026-04-16 12:23:13 - INFO -    Error en SF43773: name 'banxico' is not defined

@@ -1,0 +1,5 @@
+2026-04-16 12:16:01 - INFO - ✅ Sistema de logging profesional inicializado.
+2026-04-16 12:16:02 - INFO - Entorno de datos inicializado correctamente.
+2026-04-16 12:16:05 - INFO - Error DB: name 'db' is not defined
+2026-04-16 12:16:26 - INFO - Tabla fact_securities creada.
+2026-04-16 12:16:49 - INFO - Tabla fact_securities creada.

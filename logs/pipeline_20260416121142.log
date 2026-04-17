@@ -1,0 +1,4 @@
+2026-04-16 12:11:42 - INFO - ✅ Sistema de logging profesional inicializado.
+2026-04-16 12:11:43 - INFO - Entorno de datos inicializado correctamente.
+2026-04-16 12:11:43 - INFO - Error DB: name 'db' is not defined
+2026-04-16 12:11:43 - INFO - Iniciando Carga Histórica para los activos: ['USDMXN.FIX', 'UDIMXN.SPOT', 'MXN.TPFB', 'MXN.TIIE-1D']

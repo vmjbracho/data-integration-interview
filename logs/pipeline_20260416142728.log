@@ -1,0 +1,23 @@
+2026-04-16 14:27:28 - INFO - Sistema de logging profesional inicializado.
+2026-04-16 14:27:28 - INFO - Conexión a DuckDB establecida y activa.
+2026-04-16 14:27:28 - INFO - Entorno de datos inicializado correctamente.
+2026-04-16 14:27:31 - INFO - Tablas creadas.
+2026-04-16 14:27:33 - INFO - Iniciando Carga Histórica para los activos: ['USDMXN.FIX', 'UDIMXN.SPOT', 'MXN.TPFB', 'MXN.TIIE-1D']
+2026-04-16 14:27:33 - INFO - Procesando USDMXN.FIX (SF43718)...
+2026-04-16 14:27:34 - INFO -    Éxito: 322 registros insertados.
+2026-04-16 14:27:34 - INFO - Procesando MXN.TIIE-1D (SF331451)...
+2026-04-16 14:27:35 - INFO -    Éxito: 321 registros insertados.
+2026-04-16 14:27:35 - INFO - Procesando UDIMXN.SPOT (SP68257)...
+2026-04-16 14:27:35 - INFO -    Éxito: 471 registros insertados.
+2026-04-16 14:27:35 - INFO - Procesando MXN.TPFB (SF43773)...
+2026-04-16 14:27:36 - INFO -    Éxito: 321 registros insertados.
+2026-04-16 14:27:41 - INFO - Iniciando Carga Diaria Incremental para: ['USDMXN.FIX', 'UDIMXN.SPOT', 'MXN.TPFB', 'MXN.TIIE-1D']
+2026-04-16 14:27:42 - INFO -  Éxito: Registro 2026-04-16 guardado en s3_datalake/incremental/raw_inc_SF43718_20260416.parquet e insertado en DB.
+2026-04-16 14:27:42 - INFO -  Éxito: Registro 2026-04-15 guardado en s3_datalake/incremental/raw_inc_SF331451_20260416.parquet e insertado en DB.
+2026-04-16 14:27:42 - INFO -   UDIMXN.SPOT: 0 registros vigentes al 2026-04-16 (se descartaron fechas futuras)
+2026-04-16 14:27:42 - INFO -   UDIMXN.SPOT: sin valores nuevos para hoy
+2026-04-16 14:27:43 - INFO -  Éxito: Registro 2026-04-15 guardado en s3_datalake/incremental/raw_inc_SF43773_20260416.parquet e insertado en DB.
+2026-04-16 14:27:51 - INFO - Reporte generado exitosamente.
+2026-04-16 14:27:51 - INFO - Ubicación: s3_datalake/report/reporte_validacion_20260416142751.csv
+2026-04-16 14:29:36 - INFO - Tablas creadas.
+2026-04-16 14:29:44 - INFO - Tablas creadas.
